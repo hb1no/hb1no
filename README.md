@@ -3,14 +3,17 @@
 
 #프로필 👨‍💻
 
-임베디드/IoT & AI 융합 개발을 지향하는 이호빈입니다.  
-네트워크 통신부터 MCU 제어, 서버 연동, 컴퓨터비전까지 **끝단-끝단(End-to-End)** 구현을 즐겨 합니다.
+임베디드 개발을 지향하는 이호빈입니다.  
 
 <!-- 주요 스택 (배지) -->
   
 [![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white)]()
+[![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)]()
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)]()
 [![STM32](https://img.shields.io/badge/STM32-03234B?logo=stmicroelectronics&logoColor=white)]()
 [![Arduino](https://img.shields.io/badge/Arduino-00979D?logo=arduino&logoColor=white)]()
+[![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?logo=raspberrypi&logoColor=white)]()
+[![Jetson Nano](https://img.shields.io/badge/Jetson%20Nano-76B900?logo=nvidia&logoColor=white)]()
 [![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)]()
 [![MariaDB](https://img.shields.io/badge/MariaDB-003545?logo=mariadb&logoColor=white)]()
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)]()
@@ -56,10 +59,5 @@ OpenCV 기반의 컴퓨터비전과 MCU 제어를 결합한 **AI 딥러닝 응�
 - GitHub: **@hb1no**
 
 <div align="center">
-
-<!-- GitHub 위젯(원하면 주석 해제해 사용) -->
-  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hb1no&show_icons=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hb1no&layout=compact)
 
 </div>
