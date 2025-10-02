@@ -37,7 +37,7 @@
 ---
 
 ### 🤖 AI Project (Intel-Project-Team4)
-**Repository**: https://github.com/KimMS-99/Smart-Desk.git
+**Repository**: https://github.com/hb1no/Smart-Desk.git
 
 OpenCV 기반의 컴퓨터비전과 MCU 제어를 결합한 **AI 딥러닝 응용** 프로젝트.
 
