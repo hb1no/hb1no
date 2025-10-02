@@ -64,7 +64,7 @@ Intel Geti 기반으로 횡단보도 보행자의 **걷기 vs 달리기 행동�
 보행자의 안전을 높이고 교통 신호 체계에 적용 가능한 인공지능 학습 시도.
 
 - **사용 기술**  
-  `Intel Geti` `Classification` `Python` `Computer Vision`
+  `Intel Geti` `Classification` `Computer Vision`
 
 ---
 
