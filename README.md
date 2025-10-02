@@ -46,6 +46,17 @@ OpenCV 기반의 컴퓨터비전과 MCU 제어를 결합한 **AI 딥러닝 응�
 
 ---
 
+### 📄 Image Scanner (OpenCV + Qt)
+**Repository**: https://github.com/hb1no/image-scanner-opencv.git  
+
+OpenCV와 Qt 기반으로 제작한 **이미지 스캐너** 프로젝트.  
+문서/영역 선택 후 텍스트를 추출(OCR) 및 가공할 수 있도록 구현.
+
+- **사용 기술**  
+  `OpenCV` `Qt` `Python` `OCR`
+
+---
+
 ## 🧰 보유 스택 (요약)
 
 `C` `STM32` `Arduino` `TCP/IP` `PWM` `UART` `MariaDB/MySQL` `RFID` `OpenCV` `u-boot`
