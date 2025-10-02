@@ -43,9 +43,10 @@ RFID, 조도·온습도 센서, PWM 기반 구동 장치 등을 통합해 출입
 ### 🤖 꼰Desk (AI Smart Desk)
 **Repository**: https://github.com/hb1no/Smart-Desk.git
 
-OpenCV와 AI 모델을 활용해 **사용자의 자세·행동을 실시간으로 감지**하고, IoT 신호와 연동하여 경고·제어 기능을 제공하는 프로젝트.  
-YOLO 기반 커스텀 모델과 Jetson Nano 최적화를 통해 허리 굽음, 다리 꼬기 등 사무실에서 빈번한 자세 문제를 검출.  
-**Flask 웹 스트리밍·TensorRT 최적화·IoT 서버 연동**까지 포함한 end-to-end AI+IoT 융합 시스템.  
+데스크 업무 환경에서 발생하는 **사용자의 자세·행동을 실시간으로 감지**하고, IoT 경고·제어와 연동.  
+COCO-17 기반 데이터셋으로 학습된 YOLOv8n-pose 모델을 Jetson Nano 환경 내 최적화(기존 - DESKTOP환경 내 프로그램 운용)를 진행하여 앉은 환경 특화 인식을 확보.
+허리 굽음, 다리 꼬기 등 사무실에서 빈번한 자세 문제를 검출 및 TCP 신호로 서버/GUI와 잘못된 동작을 기록하여 제공하는 사용자 친화적인 프로젝트.
+**Flask 웹 스트리밍·TensorRT 최적화·IoT 서버 연동**까지 포함한 end-to-end AI+IoT 융합 프로젝트.
 
 - **사용 기술**  
   `AI Deeprunning` `TCP/IP` `STM32` `PWM` `UART` `MariaDB` `RFID` `openCV` `u-boot`
@@ -55,9 +56,10 @@ YOLO 기반 커스텀 모델과 Jetson Nano 최적화를 통해 허리 굽음, �
 ### 📄 쓰윽캔 (Image Scanner)
 **Repository**: https://github.com/hb1no/image-scanner-opencv.git  
 
-OpenCV와 Qt 기반으로 제작한 **데스크톱 이미지 스캐너** 애플리케이션.  
-이미지 파일을 불러와 특정 영역을 선택하면 OCR을 통해 텍스트를 추출·변환할 수 있으며, 간단한 후처리 기능도 제공.  
-문서 디지털화, 시험 답안지 판독, 간단한 노트 기록 디지털화 등 **실생활 응용에 적합한 범용 OCR 툴**로 발전 가능.
+OpenCV와 Qt 기반으 제작한 데스크톱 이미지 스캐너 애플리케이션.  
+문서 이미지를 불러와 다각형/사각형 ROI를 지정하면, **전처리(그레이스케일, 적응형 이진화, 노이즈 제거, 각도 보정)를 거쳐 텍스트를 
+추출·클립보드/파일로 변환**할 수 있으며, 간단한 후처리 기능(다국어 인식, 노이즈 제거, 왜곡 보정)도 제공.  
+문서 디지털화, 시험 답안지 판독, 간단한 노트 기록 디지털화 등 **실생활 응용에 적합한 범용 OCR 툴**로 발전 가능성을 염두해두고 제작한 프로젝트.
 
 - **사용 기술**  
   `OpenCV` `Qt` `Python` `OCR`
@@ -67,9 +69,9 @@ OpenCV와 Qt 기반으로 제작한 **데스크톱 이미지 스캐너** 애플�
 ### 🚦 Walk-Wise (Pedestrian Classification AI Model)
 **Repository**: https://github.com/hb1no/Walk-Wise.git  
 
-Intel Geti를 활용해 횡단보도 보행자의 행동을 **걷기 vs 달리기(Classification)** 로 분류하는 AI 모델.  
-교통 신호 체계와 연계해 **달리는 보행자 감지 → 신호 시간 조정/경고 알림**과 같은 응용을 목표.  
-데이터셋 품질과 다양성 문제를 다루며, **실제 교통·안전 분야 적용 가능성**을 실험적으로 검증.  
+Intel Geti로 수집·라벨링한 횡단보도 데이터에서 보행자의 행동을 걷기/달리기로 분류하는 이미지 분류 파이프라인. 
+횡단보도 보행자의 행동을 **걷기 vs 달리기(Classification)** 로 분류 하는 것. 
+교통 신호 체계와 연계해 **달리는 보행자 감지 → 신호 시간 조정/경고 알림**과 같은 응용을 목표로 제작한 AI모델.
 
 - **사용 기술**  
   `Intel Geti` `Classification` `Computer Vision`
@@ -79,9 +81,10 @@ Intel Geti를 활용해 횡단보도 보행자의 행동을 **걷기 vs 달리�
 ### 🏋️‍♂️ New_Workout_Plan (Home Training System)
 **Repository**: https://github.com/hb1no/New_Workout_Plan.git  
 
-YOLOv11 모델을 활용해 **트레이닝 자세(포즈)를 인식·교정**하는 기능을 중심으로 한 홈 트레이닝 시스템.  
-라즈베리 카메라 기반 팬틸트 카메라로 사용자 동작을 추적하고, ESP32 + 가속도 센서 기반 리모콘으로 **Wii 스타일의 운동 인터랙션**을 제공.  
-심박수 센서를 장착한 워치를 연동하여, **운동 자세·활동 강도·심박 데이터**를 통합 분석하는 개인 맞춤형 피트니스 환경을 구현.  
+YOLOv11 포즈 인식으로 **사용자의 관절 키포인트를 추적하고, 반복/자세 각도 규칙으로 운동 카운트·폼 교정**을 실시간 피드백하는 프로젝트. 
+라즈베리 카메라+팬틸트 구동으로 피사체 추적을 유지하고, ESP32 리모콘(가속도/자이로)에서 동작 스윙·속도를 수집해 포즈 신뢰도를 보강하며, 
+심박 워치 데이터(BPM)를 함께 취합하여 운동 중 생체 리듬 데이터와 같은 개인화 가이드를 제공하는 통합 홈 트레이닝 루프를 구성.
+
 
 - **사용 기술**  
   `YOLOv11` `Pose Estimation` `Raspberry Pi Camera` `ESP32` `STM32` `Accelerometer` `Heart Rate Sensor` `IoT` `Embedded Systems`
