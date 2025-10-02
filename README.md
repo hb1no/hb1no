@@ -26,7 +26,7 @@
 
 ## 📂 주요 프로젝트
 
-### 🏢 Office_IoT
+### 🏢 Office_IoT (Comprehensive IOT)
 **Repository**: https://github.com/hb1no/Office_IoT  
 
 사내/사무실 환경의 센서·액추에이터를 MCU와 서버로 연동하여 **상태 모니터링/제어**를 제공하는 IoT 시스템.
@@ -36,7 +36,7 @@
 
 ---
 
-### 🤖 꼰Desk (AI Project)
+### 🤖 꼰Desk (AI Smart Desk)
 **Repository**: https://github.com/hb1no/Smart-Desk.git
 
 OpenCV 기반의 컴퓨터비전과 MCU 제어를 결합한 **AI 딥러닝 응용** 프로젝트.
@@ -54,6 +54,17 @@ OpenCV와 Qt 기반으로 제작한 **이미지 스캐너** 프로젝트.
 
 - **사용 기술**  
   `OpenCV` `Qt` `Python` `OCR`
+
+---
+
+### 🚦 Walk-Wise (Pedestrian Classification AI Model)
+**Repository**: https://github.com/hb1no/Walk-Wise.git  
+
+Intel Geti 기반으로 횡단보도 보행자의 **걷기 vs 달리기 행동을 분류(Classification)** 하는 프로젝트.  
+보행자의 안전을 높이고 교통 신호 체계에 적용 가능한 인공지능 학습 시도.
+
+- **사용 기술**  
+  `Intel Geti` `Classification` `Python` `Computer Vision`
 
 ---
 
