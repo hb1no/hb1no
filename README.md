@@ -68,6 +68,18 @@ Intel Geti 기반으로 횡단보도 보행자의 **걷기 vs 달리기 행동�
 
 ---
 
+### 🏋️‍♂️ New_Workout_Plan (Home Training System)
+**Repository**: https://github.com/hb1no/New_Workout_Plan.git  
+
+YOLOv11 모델을 활용해 트레이닝 자세(포즈)를 인식·교정하는 기능을 중심으로 한 홈 트레이닝 시스템.
+STM 기반의 팬틸트 카메라, ESP32 + 가속도 센서를 활용한 리모콘(닌텐도 Wii 유사),
+심박수 센서를 활용한 스마트 워치를 결합하여 AI 기반 맞춤형 운동 환경을 제공
+
+- **사용 기술**  
+  `YOLOv11` `Pose Estimation` `Raspberry Pi Camera` `ESP32` `STM32` `Accelerometer` `Heart Rate Sensor` `IoT` `Embedded Systems`
+
+---
+
 ## 🧰 보유 스택 (요약)
 
 `C` `STM32` `Arduino` `TCP/IP` `PWM` `UART` `MariaDB/MySQL` `RFID` `OpenCV` `u-boot`
