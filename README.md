@@ -14,6 +14,8 @@
 [![Arduino](https://img.shields.io/badge/Arduino-00979D?logo=arduino&logoColor=white)]()
 [![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?logo=raspberrypi&logoColor=white)]()
 [![Jetson Nano](https://img.shields.io/badge/Jetson%20Nano-76B900?logo=nvidia&logoColor=white)]()
+[![ROS](https://img.shields.io/badge/ROS-22314E?logo=ros&logoColor=white)]()
+[![ESP32](https://img.shields.io/badge/ESP32-000000?logo=espressif&logoColor=white)]()
 [![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)]()
 [![MariaDB](https://img.shields.io/badge/MariaDB-003545?logo=mariadb&logoColor=white)]()
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)]()
