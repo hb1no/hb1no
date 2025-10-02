@@ -82,7 +82,7 @@ STM 기반의 팬틸트 카메라, ESP32 + 가속도 센서를 활용한 리모�
 
 ## 🧰 보유 스택 (요약)
 
-`C` `STM32` `Arduino` `TCP/IP` `PWM` `UART` `MariaDB/MySQL` `RFID` `OpenCV` `u-boot`
+`C` `STM32` `Arduino` `ESP32` `Raspberry PI` `TCP/IP` `PWM` `UART` `MariaDB/MySQL` `RFID` `OpenCV` `u-boot`
 
 > 하드웨어 드라이버/펌웨어부터 서버 연동, 네트워킹까지 전 구간을 직접 구현/통합하는 데 강점이 있습니다.
 
