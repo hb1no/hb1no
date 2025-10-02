@@ -36,7 +36,7 @@
 
 ---
 
-### 🤖 AI Project (Intel-Project-Team4)
+### 🤖 꼰Desk (AI Project)
 **Repository**: https://github.com/hb1no/Smart-Desk.git
 
 OpenCV 기반의 컴퓨터비전과 MCU 제어를 결합한 **AI 딥러닝 응용** 프로젝트.
@@ -46,7 +46,7 @@ OpenCV 기반의 컴퓨터비전과 MCU 제어를 결합한 **AI 딥러닝 응�
 
 ---
 
-### 📄 Image Scanner (OpenCV + Qt)
+### 📄 쓰윽캔 (Image Scanner)
 **Repository**: https://github.com/hb1no/image-scanner-opencv.git  
 
 OpenCV와 Qt 기반으로 제작한 **이미지 스캐너** 프로젝트.  
