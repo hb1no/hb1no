@@ -40,6 +40,18 @@ RFID, 조도·온습도 센서, PWM 기반 구동 장치 등을 통합해 출입
 
 ---
 
+### 🚦 Walk-Wise (Pedestrian Classification AI Model)
+**Repository**: https://github.com/hb1no/Walk-Wise.git  
+
+Intel Geti로 수집·라벨링한 횡단보도 데이터에서 보행자의 행동을 걷기/달리기로 분류하는 이미지 분류 파이프라인. 
+횡단보도 보행자의 행동을 **걷기 vs 달리기(Classification)** 로 분류 하는 것. 
+교통 신호 체계와 연계해 **달리는 보행자 감지 → 신호 시간 조정/경고 알림**과 같은 응용을 목표로 여러 모델의 장단점을 비교하며 제작한 AI모델.
+
+- **사용 기술**  
+  `Intel Geti` `Classification` `Computer Vision`
+
+---
+
 ### 🤖 꼰Desk (AI Smart Desk)
 **Repository**: https://github.com/hb1no/Smart-Desk.git
 
@@ -49,7 +61,7 @@ COCO-17 기반 데이터셋으로 학습된 YOLOv8n-pose 모델을 Jetson Nano �
 **Flask 웹 스트리밍·TensorRT 최적화·IoT 서버 연동**까지 포함한 end-to-end AI+IoT 융합 프로젝트.
 
 - **사용 기술**  
-  `AI Deeprunning` `TCP/IP` `STM32` `PWM` `UART` `MariaDB` `RFID` `openCV` `u-boot`
+  `AI Deeprunning` `TCP/IP` `STM32` `PWM` `UART` `RFID` `openCV` `u-boot` `Pose Estimation` `keypoint Dectection`
 
 ---
 
@@ -66,28 +78,16 @@ OpenCV와 Qt 기반으 제작한 데스크톱 이미지 스캐너 애플리케�
 
 ---
 
-### 🚦 Walk-Wise (Pedestrian Classification AI Model)
-**Repository**: https://github.com/hb1no/Walk-Wise.git  
-
-Intel Geti로 수집·라벨링한 횡단보도 데이터에서 보행자의 행동을 걷기/달리기로 분류하는 이미지 분류 파이프라인. 
-횡단보도 보행자의 행동을 **걷기 vs 달리기(Classification)** 로 분류 하는 것. 
-교통 신호 체계와 연계해 **달리는 보행자 감지 → 신호 시간 조정/경고 알림**과 같은 응용을 목표로 제작한 AI모델.
-
-- **사용 기술**  
-  `Intel Geti` `Classification` `Computer Vision`
-
----
-
 ### 🏋️‍♂️ New_Workout_Plan (Home Training System)
 **Repository**: https://github.com/hb1no/New_Workout_Plan.git  
 
 YOLOv11 포즈 인식으로 **사용자의 관절 키포인트를 추적하고, 반복/자세 각도 규칙으로 운동 카운트·폼 교정**을 실시간 피드백하는 프로젝트. 
-라즈베리 카메라+팬틸트 구동으로 피사체 추적을 유지하고, ESP32 리모콘(가속도/자이로)에서 동작 스윙·속도를 수집해 포즈 신뢰도를 보강하며, 
-심박 워치 데이터(BPM)를 함께 취합하여 운동 중 생체 리듬 데이터와 같은 개인화 가이드를 제공하는 통합 홈 트레이닝 루프를 구성.
+라즈베리 카메라+팬틸트 구동으로 피사체 추적을 유지하고, ESP32 리모콘(가속도/자이로)으로 에어마우스 기능을 수행하며, 
+심박수 워치를 WIFI, MQTT로 동기화 및 데이터(BPM)를 함께 취합하여 운동 중 생체 리듬 데이터와 같은 개인화 가이드를 제공하는 통합 홈 트레이닝 루프를 구성.
 
 
 - **사용 기술**  
-  `YOLOv11` `Pose Estimation` `Raspberry Pi Camera` `ESP32` `STM32` `Accelerometer` `Heart Rate Sensor` `IoT` `Embedded Systems`
+  `YOLOv11` `Pose Estimation` `FreeRTOS` `MQTT` `ESP32` `STM32` `GyroAccel Sensor` `Heart Rate Sensor` `IoT` `Linux`
 
 ---
 
